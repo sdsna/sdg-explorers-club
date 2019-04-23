@@ -26,15 +26,16 @@ module.exports = function(eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  eleventyConfig.addPassthroughCopy('site/script');
-  eleventyConfig.addPassthroughCopy("site/admin");
+  eleventyConfig.addPassthroughCopy("site/static/images");
+  //eleventyConfig.addPassthroughCopy("site/admin");
 
   return {
     pathPrefix: "/",
     dir: {
       input: "site",
       output: "dist",
-      includes: "_includes"
+      includes: "_includes",
+      data: "_data"
     },
     passthroughFileCopy: true,
     templateFormats: [ "md", "njk"],

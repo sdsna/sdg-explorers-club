@@ -1,0 +1,123 @@
+/* Imports */
+@import url("https://use.typekit.net/tzy6kuq.css");
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #1a3668;
+  font-family: proxima-soft, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+body {
+  background: #f1faff;
+  background-image: url("/static/images/sdg-explorer-with-passport.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+}
+#main {
+  margin: 0 auto 0 400px;
+  padding: 1rem;
+  max-width: 900px;
+}
+
+/* Skip link */
+.skip-to-main {
+  position: absolute;
+  left: 0;
+  top: -100px ;
+  z-index: 100;
+}
+.skip-to-main:focus {
+  background: #fff;
+  outline: thin solid #93358c;
+  top: 0;
+  padding: 1.25rem;
+}
+/* Logo */
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Icon */
+.explorers-icon {
+  flex: 25%;
+  max-width: 300px;
+}
+
+.icon-arrow {
+  animation: rotation-step 17s infinite ease-in-out;
+  transform-origin: center;
+}
+@-webkit-keyframes rotation-step {
+		0% {
+				-webkit-transform: rotate(0deg);
+		}
+    5.88% {
+      -webkit-transform: rotate(21.18deg);
+    }
+    11.76% {
+      -webkit-transform: rotate(42.36deg);
+    }
+    17.64% {
+      /* -webkit-transform: rotate(63.54deg); */
+      -webkit-transform: rotate(63deg);
+    }
+    23.52% {
+      -webkit-transform: rotate(84.72deg);
+    }
+    29.4% {
+      -webkit-transform: rotate(105.9deg);
+    }
+    35.28% {
+      -webkit-transform: rotate(127.08deg);
+    }
+    41.16% {
+      -webkit-transform: rotate(148.26deg);
+    }
+    47.04% {
+      -webkit-transform: rotate(169.44deg);
+    }
+    52.92% {
+      -webkit-transform: rotate(190.62deg);
+    }
+    58.8% {
+      -webkit-transform: rotate(211.8deg);
+    }
+    64.68% {
+      -webkit-transform: rotate(232.98deg);
+    }
+    70.56% {
+      -webkit-transform: rotate(254.16deg);
+    }
+    76.44% {
+      -webkit-transform: rotate(275.34deg);
+    }
+    82.32% {
+      -webkit-transform: rotate(296.52deg);
+    }
+    88.2% {
+      -webkit-transform: rotate(317.7deg);
+    }
+    94.08% {
+      -webkit-transform: rotate(338.88deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+    }
+}
