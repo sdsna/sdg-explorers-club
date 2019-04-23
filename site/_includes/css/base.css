@@ -75,57 +75,108 @@ p {
 		0% {
 				-webkit-transform: rotate(0deg);
 		}
+    3% {
+      -webkit-transform: rotate(-8deg);
+    }
     5.88% {
       /* -webkit-transform: rotate(21.18deg); */
       -webkit-transform: rotate(21deg);
+    }
+    8% {
+      -webkit-transform: rotate(18deg);
     }
     11.76% {
       /* -webkit-transform: rotate(42.36deg); */
       -webkit-transform: rotate(42deg);
     }
+    15% {
+      -webkit-transform: rotate(37deg);
+    }
     17.64% {
       /* -webkit-transform: rotate(63.54deg); */
       -webkit-transform: rotate(62deg);
+    }
+    20% {
+      -webkit-transform: rotate(59deg);
     }
     23.52% {
       /* -webkit-transform: rotate(84.72deg); */
       -webkit-transform: rotate(84deg);
     }
+    26% {
+      -webkit-transform: rotate(79deg);
+    }
     29.4% {
       -webkit-transform: rotate(105.9deg);
+    }
+    32% {
+      -webkit-transform: rotate(99deg);
     }
     35.28% {
       -webkit-transform: rotate(127.08deg);
     }
+    38% {
+      -webkit-transform: rotate(118deg);
+    }
     41.16% {
       -webkit-transform: rotate(148.26deg);
+    }
+    44% {
+      -webkit-transform: rotate(140deg);
     }
     47.04% {
       -webkit-transform: rotate(169.44deg);
     }
+    49% {
+      -webkit-transform: rotate(163deg);
+    }
     52.92% {
       -webkit-transform: rotate(190.62deg);
+    }
+    55% {
+      -webkit-transform: rotate(187deg);
     }
     58.8% {
       -webkit-transform: rotate(211.8deg);
     }
+    60% {
+      -webkit-transform: rotate(205deg);
+    }
     64.68% {
       -webkit-transform: rotate(232.98deg);
+    }
+    67% {
+      -webkit-transform: rotate(228deg);
     }
     70.56% {
       -webkit-transform: rotate(254.16deg);
     }
+    73% {
+      -webkit-transform: rotate(249deg);
+    }
     76.44% {
       -webkit-transform: rotate(275.34deg);
+    }
+    79% {
+      -webkit-transform: rotate(268deg);
     }
     82.32% {
       -webkit-transform: rotate(296.52deg);
     }
+    85% {
+      -webkit-transform: rotate(290deg);
+    }
     88.2% {
       -webkit-transform: rotate(317.7deg);
     }
+    91% {
+      -webkit-transform: rotate(310deg);
+    }
     94.08% {
       -webkit-transform: rotate(338.88deg);
+    }
+    97% {
+      -webkit-transform: rotate(330deg);
     }
     100% {
       -webkit-transform: rotate(359deg);
