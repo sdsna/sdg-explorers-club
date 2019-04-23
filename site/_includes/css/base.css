@@ -14,9 +14,6 @@ html {
   font-weight: 400;
   line-height: 1.35;
 }
-p {
-  margin-bottom: 1.5rem;
-}
 body {
   background: #f1faff;
   background-image: url("/static/images/sdg-explorer-with-passport.jpg");
@@ -26,12 +23,21 @@ body {
   min-height: 100vh;
   position: relative;
 }
+a {
+  color: rgb(234, 28, 45);
+}
+p {
+  margin-bottom: 1.5rem;
+}
 #main {
   margin: 0 auto 0 400px;
   padding: 1rem;
   max-width: 900px;
 }
-
+.site-header  {
+  margin: 0 auto 0 400px;
+  max-width: 900px
+}
 /* Skip link */
 .skip-to-main {
   position: absolute;
@@ -57,9 +63,10 @@ body {
 /* Icon */
 .explorers-icon {
   flex: 25%;
-  max-width: 300px;
 }
-
+.logo h1 {
+  flex: 75%;
+}
 .icon-arrow {
   animation: rotation-step 17s infinite ease-in-out;
   transform-origin: center;
@@ -69,17 +76,20 @@ body {
 				-webkit-transform: rotate(0deg);
 		}
     5.88% {
-      -webkit-transform: rotate(21.18deg);
+      /* -webkit-transform: rotate(21.18deg); */
+      -webkit-transform: rotate(21deg);
     }
     11.76% {
-      -webkit-transform: rotate(42.36deg);
+      /* -webkit-transform: rotate(42.36deg); */
+      -webkit-transform: rotate(42deg);
     }
     17.64% {
       /* -webkit-transform: rotate(63.54deg); */
-      -webkit-transform: rotate(63deg);
+      -webkit-transform: rotate(62deg);
     }
     23.52% {
-      -webkit-transform: rotate(84.72deg);
+      /* -webkit-transform: rotate(84.72deg); */
+      -webkit-transform: rotate(84deg);
     }
     29.4% {
       -webkit-transform: rotate(105.9deg);
@@ -120,4 +130,32 @@ body {
     100% {
       -webkit-transform: rotate(359deg);
     }
+}
+
+@media only screen and (max-width: 776.25px) {
+  body {
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .site-header {
+    margin: 1rem auto 0 auto;
+    padding: 1rem;
+    max-width: 100%;
+  }
+  .logo {
+    width: 100%;
+  }
+  .explorers-icon {
+    flex: 25%;
+  }
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+  #main {
+    background: #fff;
+    margin: 50vh auto 2rem auto;
+    max-width: 100%;
+    padding: 2rem;
+  }
+
 }
