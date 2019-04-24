@@ -186,7 +186,8 @@ p {
 @media only screen and (max-width: 776.25px) {
   body {
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top 150px center;
+    background-attachment: scroll;
   }
   .site-header {
     margin: 1rem auto 0 auto;
@@ -200,7 +201,7 @@ p {
     flex: 25%;
   }
   .logo h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   #main {
     background: #fff;
