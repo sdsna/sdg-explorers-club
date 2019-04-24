@@ -26,12 +26,13 @@ body {
 a {
   color: rgb(234, 28, 45);
 }
+h2,
 p {
   margin-bottom: 1.5rem;
 }
 #main {
   margin: 0 auto 0 400px;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   max-width: 900px;
 }
 .site-header  {
@@ -83,7 +84,7 @@ p {
       -webkit-transform: rotate(21deg);
     }
     8% {
-      -webkit-transform: rotate(18deg);
+      -webkit-transform: rotate(14deg);
     }
     11.76% {
       /* -webkit-transform: rotate(42.36deg); */
